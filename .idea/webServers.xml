@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="240edf81-f511-4c6d-87ab-385d1f55b59d" name="learn (project level)" url="http://infoma5x.beget.tech">
+        <fileTransfer host="infoma5x.beget.tech" port="22" rootFolder="/home/i/infoma5x/learn.web2.ru/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
