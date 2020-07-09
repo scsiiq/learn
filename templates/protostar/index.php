@@ -182,6 +182,7 @@ JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
         </div>
 
     </footer>
+
     <!--\\ ==================================footer=========================================-->
 
     <!--модальное окно "Записаться на обучение"-->
@@ -268,168 +269,13 @@ JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
     </div>
     <!--//модальное окно "Отправить заявку-->
 
-
 </div>
 
-<?php /*
-
-<div class="modal fade" id="send_rekvizit" tabindex="-1" role="dialog" aria-labelledby="send_rekvizitLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-    <div class="modal-content">
-      <div class="modal-header">
-        <p class="modal-title" id="send_rekvizitLabel">Отправка реквизитов</p>
-      </div>
-      <div class="modal-body">
-          <div class="div_full">
-             <input class="form-control name_mod" type="text" placeholder="ФИО">
-          </div>
-          <div class="div_full">
-              <input class="form-control tel_mod" type="tel" placeholder="Телефон">
-              <small class="err hidden">Укажите телефон</small>
-          </div>
-          <div class="div_full">
-    	        <input class="form-control email_mod" type="email" placeholder="Почта">
-          </div>
-    	<div class="example-2">
-		  <div class="form-group">
-		    <input type="file" name="file" id="file" class="input-file">
-		    <label for="file" class="btn btn-tertiary js-labelFile">
-		      <i class="icon fa fa-check"></i>
-		      <span class="js-fileName">Прикрепить реквизиты</span>
-		    </label>
-		    <label for="send_rekvizit_check" class="jackdaw">
-		        <input type="checkbox" id="send_rekvizit_check" checked="checked">
-		        <i></i>
-		        Я согласен(а) на обработку <a href="/accept-licenses/">персональных данных</a>
-		    </label>
-		  </div>
-		</div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" id="send_rekvizit_submit" class="btn">Отправить</button>
-      </div>
-    </div>
-  </div>
-  <script>
-  jQuery(document).ready(function($) {
-    $('input[type="file"]').change(function(){
-        var value = $("input[type='file']").val();
-        $('.js-fileName').text(value);
-    });
-});
-  </script>
-</div>
-	<div class="wrapper">
-		<div class="content_all">
-			<?php $main_page = $_SERVER['REQUEST_URI'][0] . $_SERVER['REQUEST_URI'][1]; ?>
-			<!-- Header -->
-			<?php if($_SERVER['REQUEST_URI'] == '/' || $main_page == '/?'){ ?>
-			<header>
-				<div class="container-fluid main_page">
-						<div class="container top_nav">
-							<div class="row">
-								<div class="col-3 logo_block">
-									<img src="../images/logo.png" alt="GP-CARD">
-								</div>
-								<div class="col-5 slogan_block">
-									<p>Официальный дилер «газпромнефть – <br>корпоративные продажи»</p>
-								</div>
-								<div class="col-4 cont_block">
-									<p>
-										<span class="email">info@gp-card.ru</span>
-										<span class="phone"><a href="tel:88005516012">8 (800) 551 60 12</a></span>
-									</p>
-								</div>
-								<div class="col-12 menu_block">
-	                                <nav class="navbar navbar-expand-lg navbar-light">
-										 <button class="navbar-toggler" id="nav_button">
-										    <i class="fa fa-bars" aria-hidden="true"></i>
-										 </button>
-										 <div class="collapse navbar-collapse" id="top_nav_menu">
-										    <div class="navbar-nav">
-		                                        <jdoc:include type="modules" name="top_menu" style="none" />
-										    </div>
-										 </div>
-									</nav>
-								</div>
-							</div>
-						</div>
-					<div class="row img_block">
-						<div class="container">
-							<div class="col-6 title_block">
-								<h1>Сервисные карты<br> от «Газпром нефти»</h1>
-								<span><i class="fa fa-check" aria-hidden="true"></i>более 2600 АЗС по России и странам СНГ</span>
-								<span><i class="fa fa-check" aria-hidden="true"></i>более 350 моек, шиномонтажных мастерских<br> и станций техобслуживания</span>
-								<img src="/images/card-main-2big-300.png" id="main_card"/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-			<?php } else {?>
-			<header class="stok" role="banner">
-				<div class="container-fluid">
-					<div class="container top_nav">
-							<div class="row">
-								<div class="col-3 logo_block">
-									<a href="/">
-										<img src="../images/logo.png" alt="GP-CARD">
-									</a>
-								</div>
-								<div class="col-5 slogan_block">
-									<span>Официальный дилер «газпромнефть – <br>корпоративные продажи»</span>
-								</div>
-								<div class="col-4 cont_block">
-									<p>
-										<span class="email">info@gp-card.ru</span>
-										<span class="phone"><a href="tel:88005516012">8 (800) 551 60 12</a></span>
-									</p>
-								</div>
-								<div class="col-12 menu_block">
-	                                <nav class="navbar navbar-expand-lg navbar-light">
-										  <button class="navbar-toggler" id="nav_button">
-										    <i class="fa fa-bars" aria-hidden="true"></i>
-										 </button>
-										 <div class="collapse navbar-collapse" id="top_nav_menu">
-										    <div class="navbar-nav">
-		                                        <jdoc:include type="modules" name="top_menu" style="none" />
-										    </div>
-										 </div>
-									</nav>
-								</div>
-							</div>
-						</div>
-				</div>
-			</header>
-			<?php } ?>
-			<jdoc:include type="message" />
-			<jdoc:include type="component" />
-		</div>
-			<!-- Подвал -->
-			<footer class="footer" style="position: relative;">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-lg-2">
-							<img src="/images/logo_footer.png" alt="">
-						</div>
-						<div class="col-md-9 col-lg-10">
-							 <jdoc:include type="modules" name="top_menu" style="none" />
-						</div>
-						<div class="col-12">
-							<p class="powered">© <?php echo date('Y'); ?> GP-CARD <br>
-                                <a target="_blank" href="https://web2.ru" style="color: rgba(164, 169, 186, 0.5);">Студия "Web2"</a></p>
-						</div>
-					</div>
-				</div>
-			</footer>
-
-
-
-
-	</div>
-	*/ ?>
+<?php
+$module = JModuleHelper::getModules('jivosite');
+foreach ($module as $moduleitem) {
+    echo JModuleHelper::renderModule($moduleitem, $attribs);
+}
+?>
 </body>
 </html>
