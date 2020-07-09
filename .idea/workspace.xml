@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c2fff4-728f-4901-8e7f-9b9d290ec224" name="Default Changelist" comment="" />
+    <list default="true" id="22c2fff4-728f-4901-8e7f-9b9d290ec224" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive_04122019_0955.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive_06122019_1218.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive_06122019_1827.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive_2019_12_02_1841.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive_2059_1713.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/protostar/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/protostar/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/protostar/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/protostar/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/protostar/js/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/protostar/js/mine.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eRFdLZfwL2JXzZYy1ld33HqRZC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594276584115</updated>
       <workItem from="1594276585389" duration="2256000" />
-      <workItem from="1594280849922" duration="104000" />
+      <workItem from="1594280849922" duration="3564000" />
     </task>
     <servers />
   </component>
@@ -58,22 +70,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="559" y="1378" key="#Deployment" timestamp="1594276762960">
+    <state x="559" y="1378" key="#Deployment" timestamp="1594299727373">
       <screen x="69" y="1200" width="1858" height="1080" />
     </state>
-    <state x="559" y="1378" key="#Deployment/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594276762960" />
-    <state x="559" y="1378" key="#Options" timestamp="1594276784824">
+    <state x="559" y="1378" key="#Deployment/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594299727373" />
+    <state x="559" y="1378" key="#Options" timestamp="1594299860198">
       <screen x="69" y="1200" width="1858" height="1080" />
     </state>
-    <state x="559" y="1378" key="#Options/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594276784824" />
+    <state x="559" y="1378" key="#Options/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594299860198" />
+    <state x="592" y="1314" key="CommitChangelistDialog2" timestamp="1594301578187">
+      <screen x="69" y="1200" width="1858" height="1080" />
+    </state>
+    <state x="592" y="1314" key="CommitChangelistDialog2/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594301578187" />
+    <state x="121" y="1250" width="1736" height="856" key="DirDiffDialog" timestamp="1594299816930">
+      <screen x="69" y="1200" width="1858" height="1080" />
+    </state>
+    <state x="121" y="1250" width="1736" height="856" key="DirDiffDialog/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594299816930" />
     <state x="746" y="1474" key="FileChooserDialogImpl" timestamp="1594279487492">
       <screen x="69" y="1200" width="1858" height="1080" />
     </state>
     <state x="746" y="1474" key="FileChooserDialogImpl/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594279487492" />
+    <state x="849" y="1613" width="260" height="214" key="Github.ShareDialog" timestamp="1594281293951">
+      <screen x="69" y="1200" width="1858" height="1080" />
+    </state>
+    <state x="849" y="1613" width="260" height="214" key="Github.ShareDialog/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594281293951" />
+    <state x="732" y="1425" key="Github.UntrackedFilesDialog" timestamp="1594281340959">
+      <screen x="69" y="1200" width="1858" height="1080" />
+    </state>
+    <state x="732" y="1425" key="Github.UntrackedFilesDialog/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594281340959" />
     <state x="468" y="1362" key="SettingsEditor" timestamp="1594280954124">
       <screen x="69" y="1200" width="1858" height="1080" />
     </state>
     <state x="468" y="1362" key="SettingsEditor/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594280954124" />
+    <state x="559" y="1452" key="Vcs.Push.Dialog.v2" timestamp="1594301588142">
+      <screen x="69" y="1200" width="1858" height="1080" />
+    </state>
+    <state x="559" y="1452" key="Vcs.Push.Dialog.v2/69.1200.1858.1080/62.0.1858.1200@69.1200.1858.1080" timestamp="1594301588142" />
     <state x="787" y="1449" key="ftp.server.browser" timestamp="1594279803705">
       <screen x="69" y="1200" width="1858" height="1080" />
     </state>
