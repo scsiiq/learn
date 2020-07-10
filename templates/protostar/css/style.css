@@ -58,6 +58,20 @@ h2 {
 .breadcrumb a.pathway {
     color: #1F9E39 !important;
 }
+header {
+    flex: 0 0 auto;
+}
+
+.global__wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+#wrapper{
+    height: 100%;
+}
 
 /* \\постоянные величины */
 
@@ -304,6 +318,8 @@ header nav ul > li.active {
     height: 500px;
     background: url('/images/Group60.jpg') no-repeat center;
     background-size: cover;
+    z-index: 100;
+    position: relative;
 }
 
 #main .row {
@@ -345,6 +361,8 @@ header nav ul > li.active {
 #cards {
     /*height: 870px;*/
     background: #F8F8F8;
+    z-index: 200;
+    position: relative;
 }
 
 #cards .row {
@@ -353,13 +371,14 @@ header nav ul > li.active {
 
 #cards .wrapper_card {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     margin-top: -150px;
     justify-content: center;
     z-index: 1;
 }
 
 #cards .card {
+    min-height: 230px;
     /*height: 260px;*/
     width: 290px;
     margin: 15px 10px;
@@ -398,11 +417,11 @@ header nav ul > li.active {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     color: #1F9E39;
-    border-bottom: 1px solid rgba(154, 202, 51, 0.5);
+    border-bottom: unset;
     position: absolute;
-    bottom: 40px;
+    bottom: unset;
 }
 
 #cards .wrap {
@@ -413,8 +432,10 @@ header nav ul > li.active {
 /*\\второй блок карточки*/
 .circle {
     position: absolute;
-    left: 578px;
-    top: 576px;
+    /*left: 523px;*/
+    /*top: 417px;*/
+    /*left: 578px;*/
+    /*top: 576px;*/
 }
 
 /*третий блок о компании*/
@@ -2329,7 +2350,23 @@ p.last_name{
     display: block;
 }
 /*\\END стилизация текста баннера*/
-
+.bottom_line{
+    background: #1F9E39;
+    position: relative;
+    z-index: 2;
+}
+.bottom_line img{
+    margin: 0 auto;
+    display: block;
+}
+.circle_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_line img.circle{
+    padding-bottom: 110px;
+}
 
 /* ----------------MEDIA----------------- */
 

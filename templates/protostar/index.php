@@ -97,8 +97,8 @@ JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
                         </div>
                         <div class="text col-md-6">
                             <!--                                        Button trigger modal -->
-                            <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
-                                Записаться на обучение
+                            <a href="https://moodledpo.sistele.com/?lang=ru" target="_blank">
+                                Учебный портал
                             </a>
                         </div>
                     </div>
@@ -123,8 +123,8 @@ JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
                                 </div>
                                 <div class="text col-md-6">
                                     <!--                                        Button trigger modal -->
-                                    <a href="#" data-toggle="modal" data-target="#exampleModalCenter">
-                                        Записаться на обучение
+                                    <a href="https://moodledpo.sistele.com/?lang=ru" target="_blank">
+                                        Учебный портал
                                     </a>
                                 </div>
                             </div>
@@ -139,8 +139,10 @@ JHtml::_('script', 'user.js', array('version' => 'auto', 'relative' => true));
     </header>
     <!-- \\=============================header================================= -->
 
-
+<div class="global_wrapper">
     <jdoc:include type="component"/>
+</div>
+
 
 
     <!-- ==================================footer=========================================-->
